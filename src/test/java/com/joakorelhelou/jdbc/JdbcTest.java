@@ -1,5 +1,6 @@
 package com.joakorelhelou.jdbc;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.sql.Connection;
@@ -16,6 +17,7 @@ public class JdbcTest {
     private final String pass = "hbstudent";
 
     @Test
+    @Ignore
     public void jdbcConnection() {
         try {
             out.println("Connecting to database");
